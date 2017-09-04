@@ -1,0 +1,57 @@
+.aukstis{
+	height: 100vh;
+}
+#pic{
+	margin-top: 40px;
+	height: 500px;
+	width: 1200px;
+	padding-left:55px;
+	position: relative;
+	padding-right: 55px;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.brand-logo{
+	margin-left: 30px;
+}
+#caption{
+	position: absolute;
+	top: 170px;
+	left: 320px;
+	width: 100%;
+}
+.buttonPosition {
+	
+	position: absolute;
+	top: 250px;
+	left: 550px;
+	
+}
+.size {
+	height: 170px;
+	padding-top: 20px;
+	padding-left: 60px;
+
+}
+.vietnam{
+	height: 170px;
+	width: 300px;
+	padding-top: 20px;
+	padding-left: 60px;
+}
+h5{
+	position: middle;
+	padding-left: 90px;
+}
+#HalongBay{
+		padding-left: 70px;
+
+}
+.buttons{
+	margin-left: 100px;
+}
+.waterfallcolor{
+	color:#68829e;
