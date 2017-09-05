@@ -6,11 +6,12 @@ margin:15px; margin-top:15px; margin-bottom: 15px;}
 .remas {border-style: solid; border-color: #e0e0e0}
 .virsus {height: 200px; margin-top:20px; margin-left:20px;}
 h1 {font-size:20px}
-.mygtukas {height: 200px; margin-top:20px; margin-left:40px; text-align: center;}
-.mygtukotekstas {margin-top:80px;}
+.mygtukas {height: 200px; margin-top:20px; margin-left:10px;}
+.mygtukotekstas {margin-top:25px; text-align: center;}
 .nuorodutekstas {color: white}
 .spalvaDustyRose{background-color:#B6A19E}
 .spalvaAqua{background-color:#6BBAA7}
 .spalvaSunshine{background-color:#FBA100}
 .spalvaLavender{background-color:#6C648B}
 .remodydis2 {height:300px}
+.plotisteksto {max-width: 100px; margin-left: 100px}

@@ -55,14 +55,41 @@ h5{
 }
 
 .Misha{
-	height: 200px;
+	height: 194px;
 
 }
 
 .lineSpacing{
-	font-size: 13px;
-	line-height: 35px;
+	font-size: 15px;
+	line-height: 41px;
 }
 h3{
 	text-align: center;
+}
+.piechartSize{
+	height: 140px;
+	margin-top: 70px;
+}
+.chartSize{
+	height:200px;
+}
+.bookSize{
+	height: 160px;
+	padding-top: 20px;
+}
+.pEPL{
+	line-height: 25px;
+	font-size: 12px;
+}
+#uk{
+font-size: 14px;
+color: red;
+}
+#greece{
+	font-size: 14px;
+	color:orange;
+}
+#denmark{
+font-size: 14px;
+color: #e57373;
 }
