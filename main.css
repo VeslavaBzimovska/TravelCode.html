@@ -1,3 +1,7 @@
+.logo{
+	height: 56px;
+}
+
 .aukstis{
 	height: 100vh;
 }
@@ -27,7 +31,7 @@ body {
 	
 	position: absolute;
 	top: 250px;
-	left: 550px;
+	left: 500px;
 	
 }
 .size {
@@ -67,8 +71,8 @@ h3{
 	text-align: center;
 }
 .piechartSize{
-	height: 140px;
-	margin-top: 70px;
+	height: 200px;
+	
 }
 .chartSize{
 	height:200px;
