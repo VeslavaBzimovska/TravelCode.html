@@ -12,3 +12,9 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+h2 {
+	color:rgba(200,15,25,0.8);
+	font-size:100px;
+font-style: italic;
+	background-color: #FFFAFA;
+}
