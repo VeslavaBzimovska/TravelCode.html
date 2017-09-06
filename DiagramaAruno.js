@@ -12,7 +12,7 @@ new Chartist.Pie('.ct-chart1', data, {
 
 
 var data = {
-  series: [5, 3, 4]
+  series: [6, 9, 2]
 };
 
 var sum = function(a, b) { return a + b };
@@ -24,7 +24,7 @@ new Chartist.Pie('.ct-chart2', data, {
 });
 
 var data = {
-  series: [5, 3, 4]
+  series: [3, 7, 8]
 };
 
 var sum = function(a, b) { return a + b };
@@ -42,3 +42,13 @@ new Chartist.Bar('.ct-chart4', {
 }, {
   distributeSeries: true
 });
+
+var options = {
+    scales: {
+        Bar: [{
+            labels: {
+                fontSize: 810
+            }
+        }]
+    }
+}
