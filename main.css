@@ -2,42 +2,33 @@
 	height: 56px;
 }
 
-.aukstis{
-	height: 100vh;
-}
 #pic{
-	margin-top: 40px;
+	max-width: 100%;
+  	max-height: 100%;
+	
 	height: 500px;
-	width: 1200px;
-	padding-left:55px;
+	width: 1255px;
 	position: relative;
-	padding-right: 55px;
-}
-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
 }
 .brand-logo{
 	margin-left: 30px;
+
 }
-#caption{
-	position: absolute;
-	top: 170px;
-	left: 320px;
-	width: 100%;
+.caption{
+
+	float: top;
+	text-align: center;
 }
 .buttonPosition {
-	
-	position: absolute;
-	top: 250px;
-	left: 500px;
-	
+top: 30px;
+
 }
 .size {
 	height: 170px;
 	padding-top: 20px;
 	padding-left: 60px;
+	max-width: 80%;
+	max-height: 80%;
 
 }
 .vietnam{
@@ -60,6 +51,8 @@ h5{
 
 .Misha{
 	height: 194px;
+	max-width: 100%;
+	max-height: 100%;
 
 }
 
@@ -76,10 +69,14 @@ h3{
 }
 .chartSize{
 	height:200px;
+	max-height: 100%
+	max-width:100%;
 }
 .bookSize{
 	height: 160px;
 	padding-top: 20px;
+	max-width: 100%;
+	max-height: 100%;
 }
 .pEPL{
 	line-height: 25px;
@@ -96,4 +93,28 @@ color: red;
 #denmark{
 font-size: 14px;
 color: #e57373;
+}
+.me{
+	height: 300px;
+	width: 400px;
+	max-height: 100%;
+	max-width: 100%;
+	padding-top:20px;
+}
+body{
+	margin:0px;
+}
+.page-footer{
+	float: right;
+	height: 440px;
+	width: 300px;
+	max-height: 100%;
+	max-width: 100%;
+}
+.aboutUs{
+	line-height: 20px;
+}
+.csssizing{
+	max-width: 100%;
+	max-height: 100%;
 }

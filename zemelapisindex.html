@@ -1,10 +1,7 @@
 <html>
     <head>
-      <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="materialize.js.css">
       <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body class="lime lighten-2">
@@ -14,37 +11,69 @@
           <ul id="nav-mobile" class="right hide-on-med-and-down" >
             <li><a href="index.html" class="z-depth-3">Index</a></li>
             <li><a href="indexA.html" class="z-depth-3">News</a></li>
-<!--              <li><a href="index3.html" class="z-depth-3">Travel methods</a></li>
- -->            <a class='dropdown-button btn' href='#' data-activates='dropdown1'>About us</a>
+            <a class='dropdown-button btn' href='#' data-activates='dropdown1'>About us</a>
             <ul id='dropdown1' class='dropdown-content'>
-              <li><a href="#!">About us</a></li>
+              <li><a href="zemelapisindex.html">About us</a></li>
               <li><a href="#!">Grazvydas</a></li>
               <li><a href="indexB.html">Arunas</a></li>
               <li><a href="mapindex.html">Veslava</a></li>
             </ul>
-            </ul>
+          </ul>
         </div>
       </nav>
-  	  <div class="row"><h3>About us</h3>
-    <div class="col s12">
-      <ul class="tabs">
-        <li class="tab col s3"><a href="#test1">Test 1</a></li>
-        <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
-        <li class="tab col s3 "><a class="active" href="#test3">Test 3</a></li>
-        <li class="tab col s3"><a href="#test4">Test 4</a></li>
-      </ul>
+
+      <nav>
+        <div class="nav-wrapper lime lighten-2">
+          <a href="index.html" class="breadcrumb">Home</a>
+          <a href="zemelapisindex.html" class="breadcrumb">About us</a>
+        </div> 
+      </nav>
+
+  	  <div class="row"><h3>About us</h3></div>
+      <div class="row">
+        <div class="col s6">
+          <ul class="tabs">
+            <li class="tab col s3"><a class="active" href="#test1">Veslava</a></li>
+            <li class="tab col s3"><a  href="#test2">Arunas</a></li>
+            <li class="tab col s3"><a href="#test3">Grazvydas</a></li>
+          </ul>
+        </div>
+        <div id="test1" class="col s10 offset-s1 lime lighten-2">
+          <div class="col offset-s3"><img src="IMG_0272.jpeg" class="me"/> </div>
+            <div class="col s10 offset-s1"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> </div>
+              <div class="col l6 col-s-6"> <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2304.9845435795637!2d25.29012821499148!3d54.709895079404475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd96ae1dedd637%3A0x73978617430c730c!2sUlon%C5%B3+g.+5%2C+Vilnius+08240!5e0!3m2!1sen!2slt!4v1504635423531" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="csssizing"></iframe> </div> </div>
+       
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l12 s12">
+                <h5 class="white-text">Details<br></h5>
+                <ul >
+                  <li >Name</li><br>
+                  <li>Address</li><br>
+                  <li>City</li><br>
+                  <li>Mobile</li><br>
+                  <li>Landline</li><br>
+                  <li>Email</li><br>
+                  <li><a href="mapindex.html">Link</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> 
+        </div>
+        </footer>
     </div>
-    <div id="test1" class="col s12">Test 1</div>
-    <div id="test2" class="col s12">Test 2</div>
-    <div id="test3" class="col s12">Test 3</div>
-    <div id="test4" class="col s12">Test 4</div>
+    
+            
+<!--   Cia yra jusu tabai -->
+   <div class="row">
+    <div id="test2" class="col s12">Arunas</div>
+    <div id="test3" class="col s12">Grazvydas</div>
   </div>
-
-
-
-
-
+    
+ 
 
               <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+              <script type="text/javascript" src="js/materialize.min.js"></script>
+              <script type="text/javascript" src="tabsmain.js"></script>
     </body>
