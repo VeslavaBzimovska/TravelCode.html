@@ -1,21 +1,27 @@
-(function($){
-  $(function(){
+//(function($){
+//  $(function(){
 
-    $('.button-collapse').sideNav();
+//    $('.button-collapse').sideNav();
 
-  }); // end of document ready
+/*  }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-$('.carousel.carousel-slider').carousel({fullWidth: true});
-
 var data = {
-  series: [5, 3, 4]
+  // A labels array that can contain any sort of values
+  labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+  // Our series array that contains series objects or in this case series data arrays
+  series: [
+    [5, 2, 4, 2, 0]
+  ]
 };
+*/
+// Create a new line chart object where as first parameter we pass in a selector
+// that is resolving to our chart container element. The Second parameter
+// is the actual data object.
 
-var sum = function(a, b) { return a + b };
+//new Chartist.Line('.ct-chart', data);
 
-new Chartist.Pie('.ct-chart', data, {
-  labelInterpolationFnc: function(value) {
-    return Math.round(value / data.series.reduce(sum) * 100) + '%';
-  }
-});
+ $(document).ready(function(){
+$('.carousel').carousel('next');
+$('.carousel').carousel('next', 3);
+    });
